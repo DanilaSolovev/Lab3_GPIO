@@ -34,8 +34,8 @@ typedef struct
     uint32_t CR2;
     uint32_t CR3;
     uint32_t GTPR;
-}USART1_Type;
+}USART2_Type;
 
-#define USART1_BASE     0x40013C00UL
+#define USART2_BASE     0x40004400UL
 
-#define USART1 ((USART1_Type*)USART1_BASE)
+#define USART2 ((USART2_Type*)USART2_BASE)
